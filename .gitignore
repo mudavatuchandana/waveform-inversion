@@ -1,0 +1,25 @@
+# Data (too large for GitHub)
+data/
+*.npy
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+*.egg-info/
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Model outputs
+outputs/checkpoints/*.pth
+
+# OS
+.DS_Store
+Thumbs.db
